@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Issa Travel — licensed tour operator for unforgettable adventures across Kazakhstan." />
+  <title>Issa Travel — Explore Kazakhstan</title>
+
+  <!-- Bootstrap core -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap‑icons for small pictograms -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      /* sunset palette  */
+      --sunset1: #ff7e5f; /* deep coral */
+      --sunset2: #feb47b; /* warm peach */
+      --deepTeal: #004d4d; /* footer + accents */
+      --softLight: #fffefc;
+    }
+
+    * {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom, var(--softLight), var(--sunset2));
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    /* --- NAVBAR --- */
+    .navbar {
+      background-color: var(--softLight);
+      border-bottom: 1px solid #eaeaea;
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+    }
+
+    .navbar-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--sunset1) !important;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      height: 55px;
+      width: auto;
+      margin-right: .6rem;
+    }
+
+    .nav-link {
+      font-size: 1rem;
+    }
+
+    /* --- TRUST BAR --- */
+    .trust-bar {
+      background: linear-gradient(to right, var(--sunset1), var(--sunset2));
+      color: #fff;
+      font-size: .9rem;
+      padding: 6px 0;
+    }
+
+    /* --- HERO --- */
+    .hero {
+      padding: 110px 20px 80px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--sunset1), var(--sunset2));
+      color: #fff;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.9rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      margin-bottom: 30px;
+    }
+
+    /* --- SECTIONS & TITLES --- */
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      color: var(--sunset1);
+      text-align: center;
+      margin: 65px 0 35px;
+      font-size: 2rem;
+    }
+
+    /* --- CARDS / GALLERY --- */
+    .card-title {
+      color: var(--sunset1);
+      font-weight: bold;
+    }
+    .card-img-top {
+      height: 220px; /* consistent heights */
+      object-fit: cover;
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem;
+    }
+
+    /* --- TRAVEL TIPS (recommendation box) --- */
+    .recommendation {
+      background: #fff8f3;
+      padding: 45px 35px;
+      border-radius: 14px;
+      margin-top: 70px;
+      width: 100%;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      background-color: var(--deepTeal);
+      color: white;
+      padding: 50px 20px 45px;
+      text-align: center;
+    }
+    .socials a {
+      color: #c1eceb;
+      margin: 0 14px;
+      text-decoration: none;
+      font-size: 1.15rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Trust bar -->
+<div class="trust-bar text-center">
+  <span class="me-2"><i class="bi bi-shield-check"></i> Licensed tour operator № 2025‑045678</span> |
+  <span class="ms-2"><i class="bi bi-geo-alt"></i> Member of Kazakhstan Travel Association</span>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="IssaTravel.html.png" alt="Issa Travel logo" />
+      Issa Travel
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#locations">Locations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Discover Kazakhstan's Hidden Gems</h1>
+    <p>Exclusive tours through the breathtaking nature of the Almaty region</p>
+    <a href="#contact" class="btn btn-light btn-lg"><i class="bi bi-calendar-check"></i> Book a Tour</a>
+  </div>
+</section>
+
+<!-- TOP LOCATIONS -->
+<section class="container" id="locations">
+  <h2 class="section-title">Explore Our Top Locations</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4 gallery">
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.mds.yandex.net/i?id=f714a36e58f1a84eafb5ab0fd53935b7c4ab57c5-5392421-images-thumbs&n=13" class="card-img-top" alt="Big Almaty Lake"><div class="card-body"><h5 class="card-title">Big Almaty Lake</h5><p>Turquoise alpine lake surrounded by mountains, ideal for serenity and photography.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.mds.yandex.net/get-entity_search/118114/777247166/S600xU_2x" class="card-img-top" alt="Charyn Canyon"><div class="card-body"><h5 class="card-title">Charyn Canyon</h5><p>Grand landscapes of rock and river – one of the most photogenic sites in Kazakhstan.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.mds.yandex.net/get-entity_search/4771349/1177802110/S600xU_2x" class="card-img-top" alt="Kaindy Lake"><div class="card-body"><h5 class="card-title">Kaindy Lake</h5><p>Underwater forest beneath calm turquoise water. Truly otherworldly.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.mds.yandex.net/i?id=49920794b0f86e3134617e0b57854196_l-12892887-images-thumbs&n=13" class="card-img-top" alt="Kolsai Lakes"><div class="card-body"><h5 class="card-title">Kolsai Lakes</h5><p>A chain of alpine lakes in the Tien Shan – camping, stargazing, peace.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.mds.yandex.net/i?id=0943eac9942e8ec97a966b657b46775e93d10e86-5289344-images-thumbs&n=13" class="card-img-top" alt="Medeu"><div class="card-body"><h5 class="card-title">Medeu</h5><p>World's highest ice rink. Fresh air, historic place, gorgeous view.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://sun9-30.userapi.com/impg/Pzk70smKFwMTewNJFoZlkQinM8-pK_8Rp-Vl7Q/j1KmOAb8aKA.jpg?size=604x453&quality=96&sign=110a8309c18f39b40183df8110714feb&type=album" class="card-img-top" alt="Turgen Gorge"><div class="card-body"><h5 class="card-title">Turgen Gorge</h5><p>Dense forests, fast rivers, and beautiful waterfalls. A paradise for hikers.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://cdnn21.img.ria.ru/images/07e6/04/15/1784700752_0:0:1920:1080_768x0_80_0_0_334dcb5b85ebe15ed12769124d73a040.jpg" class="card-img-top" alt="Tamgaly Tas"><div class="card-body"><h5 class="card-title">Tamgaly Tas</h5><p>Ancient Buddhist carvings near the Ili River. A place of mystery and peace.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://egov.kz/cms/sites/default/files/issyk_0.jpg" class="card-img-top" alt="Issyk Lake"><div class="card-body"><h5 class="card-title">Issyk Lake</h5><p>A lake hidden in a mountain valley. Great for picnics and scenic views.</p></div></div></div>
+    <div class="col"><div class="card h-100 shadow-sm"><img src="https://avatars.dzeninfra.ru/get-zen_doc/1577780/pub_5f7b1ea1952c3b370ed2aeb3_5f7b20338d3ae5589b828312/scale_1200" class="card-img-top" alt="Altyn Emel"><div class="card-body"><h5 class="card-title">Altyn Emel</h5><p>National park with Singing Dunes, sacred mountains, and wild beauty.</p></div></div></div>
+  </div>
+</section>
+
+<!-- TRAVEL TIPS -->
+<section class="container recommendation text-center" id="tips">
+  <h2 class="section-title">Travel Tips</h2>
+  <p class="fs-5">✓ Best months: May to September</p>
+  <p class="fs-5">✓ Bring layers — mornings & evenings can be cool</p>
+  <p class="fs-5">✓ Always have cash for remote areas</p>
+  <p class="fs-5">✓ Download maps offline — signal may drop</p>
+  <p class="fs-5">✓ Respect nature and local customs</p>
+  <p class="fs-5">✓ Learn a few Kazakh phrases — locals appreciate it!</p>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <p class="fs-5 mb-2">Let’s plan your trip:</p>
+  <p class="mb-1">📧 <a href="mailto:almaty@issatravel.kz" class="text-white">almaty@issatravel.kz</a></p>
+  <p class="mb-2">📞 +7 747 300 2006</p>
+  <div class="socials mb-3">
+    <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+    <a href="https://wa.me/77473002006" target="_blank"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://maps.google.com" target="_blank"><i class="bi bi-geo-alt"></i></a>
+  </div>
+  <small class="d-block">© 2025 Issa Travel — All rights reserved</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
